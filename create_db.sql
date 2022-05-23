@@ -3,9 +3,9 @@ GO
 CREATE DATABASE [vizsgaremek]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'vizsgaremek', FILENAME = N'd:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\vizsgaremek.mdf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
+( NAME = N'vizsgaremek', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\vizsgaremek.mdf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
  LOG ON 
-( NAME = N'vizsgaremek_log', FILENAME = N'd:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\vizsgaremek_log.ldf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
+( NAME = N'vizsgaremek_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\vizsgaremek_log.ldf' , SIZE = 8192KB , FILEGROWTH = 65536KB )
 GO
 ALTER DATABASE [vizsgaremek] SET COMPATIBILITY_LEVEL = 150
 GO
